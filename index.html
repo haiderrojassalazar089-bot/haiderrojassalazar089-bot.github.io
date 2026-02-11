@@ -3,73 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haider Rojas Salazar | Estadística & BI</title>
+  <title>Haider Rojas Salazar | Statistical Analyst</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">HR</div>
+    <ul>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
     <h1>Haider Rojas Salazar</h1>
-    <p>Estudiante de Estadística | Business Intelligence | Análisis de Datos</p>
+    <h2>Statistical Analyst | Financial & Economic Data</h2>
+    <p>Especializado en análisis estadístico, modelación de datos y visualización para la toma de decisiones.</p>
+    <a href="#projects" class="btn">Ver Proyectos</a>
   </header>
 
-  <section id="about">
+  <!-- ABOUT -->
+  <section id="about" class="section">
     <h2>Sobre mí</h2>
     <p>
-      Soy estudiante de último semestre de <strong>Estadística</strong> en la
-      <strong>Universidad Santo Tomás</strong>. Tengo conocimientos en probabilidad,
-      inferencia estadística y análisis de datos.
+      Estudiante de último semestre de <strong>Estadística</strong> en la Universidad Santo Tomás.
+      Experiencia en análisis financiero, inferencia estadística y modelación de datos.
     </p>
     <p>
-      Manejo herramientas como <strong>R Studio, Python y Power BI</strong>.
-      Realicé un diplomado en <strong>Business Intelligence y Análisis de Big Data</strong>
-      en la <strong>Universidad Pontificia Javeriana de Cali</strong>.
+      Diplomado en <strong>Business Intelligence y Big Data</strong> en la Universidad Javeriana.
+      Manejo herramientas como <strong>Python, R, Power BI y SQL</strong>.
     </p>
   </section>
 
-  <section id="skills">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Estadística descriptiva e inferencial</li>
-      <li>Estadística no paramétrica</li>
-      <li>Diseño de experimentos</li>
-      <li>R Studio</li>
-      <li>Python</li>
-      <li>Power BI</li>
-      <li>Business Intelligence</li>
-    </ul>
+  <!-- SKILLS -->
+  <section id="skills" class="section dark">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-container">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">R</div>
+      <div class="skill-card">Power BI</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Inferencia Estadística</div>
+      <div class="skill-card">Series de Tiempo</div>
+      <div class="skill-card">Machine Learning Básico</div>
+    </div>
   </section>
 
-  <section id="projects">
-    <h2>Proyectos</h2>
-    <p>
-      He desarrollado proyectos académicos enfocados en:
-    </p>
-    <ul>
-      <li>Análisis estadístico no paramétrico</li>
-      <li>Diseño y análisis de experimentos</li>
-      <li>Visualización de datos en Power BI</li>
-      <li>Análisis de datos con R y Python</li>
-    </ul>
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Proyectos Destacados</h2>
+
+    <div class="project-card">
+      <h3>Análisis de Volatilidad en Acciones Tecnológicas</h3>
+      <p>Estudio de la volatilidad histórica de Microsoft, Nvidia, AMD, Intel y TSMC utilizando Python.</p>
+      <p><strong>Herramientas:</strong> Pandas, Matplotlib, Series de Tiempo</p>
+      <a href="#" class="project-link">Ver Repositorio</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Análisis del Sector TIC en Colombia</h3>
+      <p>Análisis económico del sector J6201 en los últimos 10 años: PIB, empleo, regulación y pandemia.</p>
+      <p><strong>Herramientas:</strong> Excel, Power BI, Análisis Económico</p>
+      <a href="#" class="project-link">Ver Proyecto</a>
+    </div>
+
   </section>
 
-  <section id="contact">
+  <!-- CONTACT -->
+  <section id="contact" class="section dark">
     <h2>Contacto</h2>
-    <p>Email: <a href="mailto:haiderrojassalazar089@gmail.com">
-      haiderrojassalazar089@gmail.com</a>
-    </p>
-    <p>GitHub: 
-      <a href="https://github.com/haiderrojassalazar089-bot" target="_blank">
-        haiderrojassalazar089-bot
-      </a>
-    </p>
-    <button id="btnSaludo">Salúdame 👋</button>
+    <p>Email: <a href="mailto:haiderrojassalazar089@gmail.com">haiderrojassalazar089@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/haiderrojassalazar089-bot" target="_blank">Repositorio</a></p>
+    <p>LinkedIn: (Agrega tu enlace aquí)</p>
   </section>
 
   <footer>
     <p>© 2026 - Haider Rojas Salazar</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
