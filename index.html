@@ -3,118 +3,189 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haider Rojas Salazar | Estadístico & BI</title>
+  <title>Haider Rojas Salazar | Estadística & Analítica de Datos</title>
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
+  <!-- HERO -->
   <header class="hero">
-    <h1>Haider Rojas Salazar</h1>
-    <p>Estadístico | Business Intelligence | Análisis de Datos</p>
-    <p class="subtitle">
-      Portafolio académico y profesional
-    </p>
+    <div class="hero-container">
+      <h1><i class="fas fa-chart-simple"></i> Haider Rojas Salazar</h1>
+      <p class="hero-role">Estadístico | Analista de Datos | Business Intelligence</p>
+      <p class="hero-claim">
+        Análisis estadístico aplicado a la toma de decisiones basadas en datos
+      </p>
+    </div>
   </header>
 
-  <section>
-    <h2>Perfil Profesional</h2>
+  <!-- PERFIL -->
+  <section class="section profile">
+    <div class="section-title">
+      <h2><i class="fas fa-user"></i> Perfil Profesional</h2>
+    </div>
+
+    <p class="highlight">
+      <i class="fas fa-award"></i>
+      Formación sólida en estadística aplicada y análisis de datos
+    </p>
+
     <p>
       Estudiante de último semestre de <strong>Estadística</strong> en la
-      <strong>Universidad Santo Tomás</strong>, con formación en probabilidad,
-      inferencia estadística, análisis exploratorio y modelamiento de datos.
+      <strong>Universidad Santo Tomás</strong>, con enfoque en análisis exploratorio,
+      inferencia estadística y modelamiento de datos.
     </p>
+
     <p>
-      Manejo herramientas como <strong>R, Python y Power BI</strong>.
-      Diplomado en <strong>Business Intelligence y Big Data</strong>
+      Experiencia académica desarrollando proyectos en
+      <strong>estadística no paramétrica, diseño de experimentos</strong> y
+      visualización de información para apoyar procesos de decisión.
+    </p>
+
+    <p>
+      Formación complementaria en <strong>Business Intelligence y Big Data</strong>
       (Universidad Pontificia Javeriana de Cali).
     </p>
   </section>
 
-  <section>
-    <h2>Competencias</h2>
-    <div class="grid">
+  <!-- EDUCACIÓN -->
+  <section class="section education">
+    <div class="section-title">
+      <h2><i class="fas fa-graduation-cap"></i> Formación Académica</h2>
+    </div>
 
+    <div class="card-grid">
       <div class="card">
-        <h3>Estadística</h3>
-        <ul>
-          <li>Estadística descriptiva e inferencial</li>
-          <li>Pruebas paramétricas y no paramétricas</li>
-          <li>Diseño de experimentos</li>
-          <li>Análisis exploratorio de datos</li>
-        </ul>
+        <h3><i class="fas fa-university"></i> Estadística</h3>
+        <p>Universidad Santo Tomás</p>
+        <span class="badge">Último semestre</span>
       </div>
 
       <div class="card">
-        <h3>Herramientas</h3>
-        <ul>
-          <li>R (tidyverse, ggplot2)</li>
-          <li>Python (pandas, numpy)</li>
-          <li>Power BI (DAX, dashboards)</li>
-          <li>Excel avanzado</li>
-        </ul>
+        <h3><i class="fas fa-certificate"></i> Diplomado</h3>
+        <p>Business Intelligence & Big Data</p>
+        <span class="badge">PUJ Cali</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section skills">
+    <div class="section-title">
+      <h2><i class="fas fa-toolbox"></i> Habilidades Técnicas</h2>
+    </div>
+
+    <div class="skill-grid">
+
+      <div class="skill-block">
+        <h3><i class="fas fa-code"></i> Lenguajes</h3>
+        <span class="skill">Python</span>
+        <span class="skill">R</span>
+        <span class="skill">SQL</span>
       </div>
 
-      <div class="card">
-        <h3>Business Intelligence</h3>
-        <ul>
-          <li>Modelado de datos</li>
-          <li>KPI y análisis de indicadores</li>
-          <li>Visualización de datos</li>
-        </ul>
+      <div class="skill-block">
+        <h3><i class="fas fa-chart-bar"></i> Análisis & BI</h3>
+        <span class="skill">Power BI</span>
+        <span class="skill">DAX</span>
+        <span class="skill">Excel Avanzado</span>
+      </div>
+
+      <div class="skill-block">
+        <h3><i class="fas fa-calculator"></i> Estadística</h3>
+        <span class="skill">EDA</span>
+        <span class="skill">Inferencia</span>
+        <span class="skill">Tests no paramétricos</span>
+        <span class="skill">Diseño de experimentos</span>
+      </div>
+
+      <div class="skill-block">
+        <h3><i class="fas fa-laptop-code"></i> Herramientas</h3>
+        <span class="skill">RStudio</span>
+        <span class="skill">Jupyter</span>
+        <span class="skill">Git / GitHub</span>
       </div>
 
     </div>
   </section>
 
-  <section>
-    <h2>Proyectos Académicos</h2>
-
-    <div class="card">
-      <h3>Análisis No Paramétrico</h3>
-      <p>
-        Aplicación de pruebas no paramétricas (Kruskal-Wallis, Wilcoxon)
-        para comparación de grupos utilizando R.
-      </p>
+  <!-- PROYECTOS -->
+  <section class="section projects">
+    <div class="section-title">
+      <h2><i class="fas fa-folder-open"></i> Proyectos Académicos</h2>
     </div>
 
-    <div class="card">
-      <h3>Diseño de Experimentos</h3>
+    <article class="project">
+      <h3><i class="fas fa-chart-line"></i> Análisis Exploratorio de Datos</h3>
       <p>
-        Análisis de diseños completamente al azar y factoriales
-        para evaluación de tratamientos.
+        Evaluación de patrones y comportamiento de variables mediante análisis
+        descriptivo y visualizaciones estadísticas.
       </p>
-    </div>
+      <ul>
+        <li>Identificación de tendencias y outliers</li>
+        <li>Análisis univariado y multivariado</li>
+        <li>Visualización con ggplot2</li>
+      </ul>
+    </article>
 
-    <div class="card">
-      <h3>Dashboards en Power BI</h3>
+    <article class="project">
+      <h3><i class="fas fa-vials"></i> Estadística No Paramétrica</h3>
       <p>
-        Desarrollo de dashboards interactivos para análisis de ventas
+        Comparación de grupos mediante pruebas estadísticas no paramétricas
+        aplicadas a datos reales.
+      </p>
+      <ul>
+        <li>Pruebas Kruskal-Wallis y Wilcoxon</li>
+        <li>Interpretación de p-valores</li>
+        <li>Conclusiones estadísticas aplicadas</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3><i class="fas fa-dashboard"></i> Dashboards en Power BI</h3>
+      <p>
+        Construcción de dashboards interactivos para análisis de indicadores
         y apoyo a la toma de decisiones.
       </p>
+      <ul>
+        <li>KPIs y métricas clave</li>
+        <li>Modelado de datos</li>
+        <li>Storytelling visual</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contact">
+    <div class="section-title">
+      <h2><i class="fas fa-envelope-open-text"></i> Contacto</h2>
     </div>
-  </section>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>
-      📧 Email:
-      <a href="mailto:haiderrojassalazar089@gmail.com">
-        haiderrojassalazar089@gmail.com
-      </a>
-    </p>
-    <p>
-      💻 GitHub:
-      <a href="https://github.com/haiderrojassalazar089-bot" target="_blank">
-        haiderrojassalazar089-bot
-      </a>
+    <p class="contact-text">
+      Abierto a prácticas, proyectos académicos y oportunidades en análisis de datos.
     </p>
 
-    <button id="btnSaludo">Salúdame</button>
+    <div class="contact-buttons">
+      <a href="mailto:haiderrojassalazar089@gmail.com" class="btn">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+      <a href="https://github.com/haiderrojassalazar089-bot" target="_blank" class="btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <button id="btnSaludo" class="btn secondary">
+      <i class="fas fa-hand-wave"></i> Salúdame
+    </button>
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>© 2026 · Haider Rojas Salazar</p>
+    <p>
+      © 2026 · Haider Rojas Salazar · Estadística & Analítica de Datos
+    </p>
   </footer>
 
   <script src="script.js"></script>
