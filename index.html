@@ -3,102 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haider Rojas Salazar | Estadística & BI</title>
+  <title>Haider Rojas Salazar | Estadístico & BI</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-  <!-- HEADER -->
   <header class="hero">
-    <div class="container">
-      <h1>Haider Rojas Salazar</h1>
-      <p>Estadístico | Business Intelligence | Análisis de Datos</p>
-      <a href="#contact" class="btn">Contáctame</a>
-    </div>
+    <h1>Haider Rojas Salazar</h1>
+    <p>Estadístico | Business Intelligence | Análisis de Datos</p>
+    <p class="subtitle">
+      Portafolio académico y profesional
+    </p>
   </header>
 
-  <!-- SOBRE MÍ -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>Sobre mí</h2>
+  <section>
+    <h2>Perfil Profesional</h2>
+    <p>
+      Estudiante de último semestre de <strong>Estadística</strong> en la
+      <strong>Universidad Santo Tomás</strong>, con formación en probabilidad,
+      inferencia estadística, análisis exploratorio y modelamiento de datos.
+    </p>
+    <p>
+      Manejo herramientas como <strong>R, Python y Power BI</strong>.
+      Diplomado en <strong>Business Intelligence y Big Data</strong>
+      (Universidad Pontificia Javeriana de Cali).
+    </p>
+  </section>
+
+  <section>
+    <h2>Competencias</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Estadística</h3>
+        <ul>
+          <li>Estadística descriptiva e inferencial</li>
+          <li>Pruebas paramétricas y no paramétricas</li>
+          <li>Diseño de experimentos</li>
+          <li>Análisis exploratorio de datos</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Herramientas</h3>
+        <ul>
+          <li>R (tidyverse, ggplot2)</li>
+          <li>Python (pandas, numpy)</li>
+          <li>Power BI (DAX, dashboards)</li>
+          <li>Excel avanzado</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Business Intelligence</h3>
+        <ul>
+          <li>Modelado de datos</li>
+          <li>KPI y análisis de indicadores</li>
+          <li>Visualización de datos</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Proyectos Académicos</h2>
+
+    <div class="card">
+      <h3>Análisis No Paramétrico</h3>
       <p>
-        Soy estudiante de último semestre de <strong>Estadística</strong> en la
-        <strong>Universidad Santo Tomás</strong>. Me especializo en análisis de datos,
-        inferencia estadística y visualización estratégica de información.
+        Aplicación de pruebas no paramétricas (Kruskal-Wallis, Wilcoxon)
+        para comparación de grupos utilizando R.
       </p>
+    </div>
+
+    <div class="card">
+      <h3>Diseño de Experimentos</h3>
       <p>
-        Tengo experiencia en <strong>R, Python y Power BI</strong>, además de formación
-        en <strong>Business Intelligence y Big Data</strong> en la Universidad
-        Pontificia Javeriana de Cali.
+        Análisis de diseños completamente al azar y factoriales
+        para evaluación de tratamientos.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Dashboards en Power BI</h3>
+      <p>
+        Desarrollo de dashboards interactivos para análisis de ventas
+        y apoyo a la toma de decisiones.
       </p>
     </div>
   </section>
 
-  <!-- HABILIDADES -->
-  <section id="skills" class="section light">
-    <div class="container">
-      <h2>Habilidades Técnicas</h2>
-      <ul class="skills-list">
-        <li>Estadística descriptiva e inferencial</li>
-        <li>Estadística no paramétrica</li>
-        <li>Diseño de experimentos</li>
-        <li>Modelamiento estadístico</li>
-        <li>R y RStudio</li>
-        <li>Python (Pandas, NumPy, Matplotlib)</li>
-        <li>Power BI</li>
-        <li>Business Intelligence</li>
-      </ul>
-    </div>
+  <section>
+    <h2>Contacto</h2>
+    <p>
+      📧 Email:
+      <a href="mailto:haiderrojassalazar089@gmail.com">
+        haiderrojassalazar089@gmail.com
+      </a>
+    </p>
+    <p>
+      💻 GitHub:
+      <a href="https://github.com/haiderrojassalazar089-bot" target="_blank">
+        haiderrojassalazar089-bot
+      </a>
+    </p>
+
+    <button id="btnSaludo">Salúdame</button>
   </section>
 
-  <!-- PROYECTOS -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Proyectos</h2>
-      <p>He desarrollado proyectos enfocados en:</p>
-      <ul>
-        <li>Análisis estadístico no paramétrico</li>
-        <li>Diseño y análisis de experimentos</li>
-        <li>Dashboards interactivos en Power BI</li>
-        <li>Análisis exploratorio y modelamiento en R y Python</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section id="contact" class="section dark">
-    <div class="container">
-      <h2>Contacto</h2>
-
-      <p>Email: 
-        <a href="mailto:haiderrojassalazar089@gmail.com">
-          haiderrojassalazar089@gmail.com
-        </a>
-      </p>
-
-      <p>GitHub: 
-        <a href="https://github.com/haiderrojassalazar089-bot" target="_blank">
-          haiderrojassalazar089-bot
-        </a>
-      </p>
-
-      <button id="btnSaludo" class="btn">Salúdame 👋</button>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
   <footer>
-    <p>© 2026 - Haider Rojas Salazar | Portafolio Profesional</p>
+    <p>© 2026 · Haider Rojas Salazar</p>
   </footer>
 
-  <!-- JS -->
   <script src="script.js"></script>
-
 </body>
 </html>
